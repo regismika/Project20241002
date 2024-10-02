@@ -197,7 +197,7 @@ for v in vardas:
 # Susikurkite tokį ciklą: for elementas in [88, 65, 21, 26, 47]
 # Iš duotų skaičių išveskite visus skaičius, kurie yra lyginiai
 # KLAUSTI
-for elementas in [88, 65, 21, 26, 47]:
+for elementas in [88, 65, 21, 26, 47, 14]:
     if elementas % 2 == 0:
         print(elementas)
 
