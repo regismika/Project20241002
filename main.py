@@ -189,17 +189,17 @@ from itertools import count
 # tame varde yra raidžių. Visais atvejais išveskite tą patį pasisveikinimą,
 # pavyzdžiui "Labas, Ieva" (ši eilutė kartotųsi 4 kartus).
 
-print("Iveskite savo varda")
-vardas = input()
-for v in vardas:
-    print(f'labas {vardas}')
+# print("Iveskite savo varda")
+# vardas = input()
+# for v in vardas:
+#     print(f'labas {vardas}')
 
 # Susikurkite tokį ciklą: for elementas in [88, 65, 21, 26, 47]
 # Iš duotų skaičių išveskite visus skaičius, kurie yra lyginiai
-# KLAUSTI
-for elementas in [88, 65, 21, 26, 47, 14]:
-    if elementas % 2 == 0:
-        print(elementas)
+
+# for elementas in [88, 65, 21, 26, 47, 14]:
+#     if elementas % 2 == 0:
+#         print(elementas)
 
 # Leiskite vartotojui nurodyti rėžių pradžią, pabaigą, žingsnį. Taip pat, kokius
 # skaičius jis nori matyti (lyginius ar nelyginius). Patikrinkite ar rėžiai tinkami,
@@ -207,3 +207,48 @@ for elementas in [88, 65, 21, 26, 47, 14]:
 # žingsnį. Išveskite tik tokius skaičius kokius vartotojas pasirinko (lyginius
 # arba nelyginius)
 
+# 15. Raskite visų skaičių nuo 1 iki 100 sumą.
+# totalsum = 0
+# for i in range (1, 101):
+#     totalsum += i
+#     print(f' Galutine suma: {totalsum}')
+
+# 16.Raskite visų lyginių skaičių nuo 20 iki 50 sumą.
+# 17.Raskite visų nelyginių skaičių nuo 30 iki 60 sumą
+
+
+# 1. Išveskite visus skaičius nuo 1 iki 20.
+# skaicius = 1
+# while skaicius < 21:
+#     print(skaicius)
+#     skaicius += 1
+
+# 2. Išveskite visus skaičius nuo 1 iki 50. Prie kiekvieno lyginio skaičiaus
+# parašykite žodį "lyginis", o prie kiekvieno nelyginio – "nelyginis".
+# skaicius = 0
+# while skaicius < 50:
+#     skaicius += 1
+#     if skaicius % 2 == 0:
+#         print(skaicius, "lyginis")
+#     else:
+#         print(skaicius, "nelyginis")
+
+# 3. Išveskite visus skaičius nuo 25 iki 50. Vietoj skaičių, kurie dalinasi iš 3
+# išveskite tekstą "dalinasi iš 3".
+
+# for i in range(25, 51):
+#     if i % 3 == 0:
+#         print("dalinasi is 3")
+#     else:
+#         print(i)
+
+# 4. Išveskite visus skaičius nuo 1 iki 100 arba iki tol kol pasitaikys toks, kuris
+# dalinasi iš 7.
+# i = 1
+# while i <= 100:
+#     if i % 7 == 0:
+#         break
+#     print(i)
+#     i += 1
+
+# 5. Išvedinėkite visus skaičius nuo 1 iki tol kol pasitaikys skaičius,
