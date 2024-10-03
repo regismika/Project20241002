@@ -65,6 +65,8 @@
 # print(list(range(0,100,7)))
 # print(len(list(range(0,100,7))))
 from itertools import count
+from operator import truth, truediv
+from turtledemo.penrose import start
 
 # Susikurkite list vardams saugoti ir užpildykite jį informacija. Išveskite visą
 # šį list, tuomet pirmą narį iš jo, paskutinį narį, bei kiek narių jame yra.
@@ -248,7 +250,51 @@ from itertools import count
 # while i <= 100:
 #     if i % 7 == 0:
 #         break
-#     print(i)
 #     i += 1
+# print(i)
 
-# 5. Išvedinėkite visus skaičius nuo 1 iki tol kol pasitaikys skaičius,
+# 5. Išvedinėkite visus skaičius nuo 1 iki tol kol pasitaikys skaičius, kuris dalinasi iš 3 ir iš 5.
+# i = 1
+# while i < 100:
+#     if i % 3 == 0 and i % 5 == 0:
+#         break
+#     i += 1
+# print(i)
+
+# 6.Vartotojas turi suvesti rėžių pradžią ir pabaigą. Tačiau jūs turite patikrinti ar nurodyti rėžiai yra geri (pradžia mažesnė už pabaigą). Liepkite
+# vartotojui kartoti įvedimą tol, kol rėžiai jau bus įvesti tinkamai. Turint tinkamus rėžius, išveskite visus skaičius nuo rėžių pradžios iki pabaigos
+# (šitam jau vietoj while galite naudoti for ciklą), šalia kiekvieno skaičiaus išvedant jo kvadratą, bei ar jis lyginis/nelyginis.
+
+# while True:
+#       print("Iveskite pirmaji skaiciu")
+#       skaicius1 = int(input())
+#       print("Iveskite antraji skaiciu didesni uz pirmaji skaiciu")
+#       skaicius2 = int(input())
+#       if skaicius1 < skaicius2:
+#           for skaicius in range(skaicius1, skaicius2):
+#              if (skaicius * skaicius) % 2 == 0:
+#                  print(f'{skaicius}  {(skaicius * skaicius)} lyginis')
+#              else:
+#                  print(f'{skaicius}  {(skaicius * skaicius)} nelyginis')
+#           break
+#       else:
+#          print("Neteisingai. Skaityk salyga. Prasau")
+
+
+# 7. Išveskite visus skaičius nuo 1 iki kol pasitaikys toks, kuris yra pirminis ir yra didesnis nei 20.
+
+
+# 8. Liepkite vartotojui įvedinėti bet kokius skaičius. Vykdykite įvedinėjimą iki
+# kol įvestas skaičius bus lygus 0. Raskite įvestų skaičių sumą.
+# 9. Leiskite vartotojui atlikti norimus skaičiavimus tiek kartų kiek jis nori.
+# Pavyzdžiui, leiskite vartotojui įvesti du skaičius, tuomet jam parodykite
+# pačius skaičius, veiksmus (sudėtis, atimtis, daugyba, dalyba) ir
+# suskaičiuotus atsakymus (5 + 3 = 8; 5 - 3 = 2; ...). Kai atsakymai bus
+# parodyti, vartotojas turi turėti galimybę pakartoti skaičiavimus, todėl
+# leiskite pasirinkti ar dar kartoti veiksmą, ar jau programa turėtų baigti
+# savo darbą.
+# 10.Vartotojui išveskite pasirinkto skaičiaus daugybos lentelę (pvz, skaičiaus 5
+# daugybos lentelė būtų 5 * 1 = 5; 5 * 2 = 10; 5 * 3 = 15; ...). Leiskite
+# vartotojui kartoti veiksmą (tiek kartų kiek norės) ir gauti dar vieną
+# daugybos lentelę su kitu pasirinktu skaičiumi.
+
