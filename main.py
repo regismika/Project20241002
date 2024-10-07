@@ -281,11 +281,35 @@ from turtledemo.penrose import start
 #          print("Neteisingai. Skaityk salyga. Prasau")
 
 
-# 7. Išveskite visus skaičius nuo 1 iki kol pasitaikys toks, kuris yra pirminis ir yra didesnis nei 20.
+# 7. Išveskite visus skaičius nuo 1 iki kol pasitaikys toks, kuris yra pirminis ir yra
+# didesnis nei 20.
 
+# print("Pirminis skaicius didesnis uz 20:")
+# for sk in range(1, 30 + 1):
+#      if sk > 1:
+#        for i in range(2, sk):
+#            if sk % i == 0:
+#                break
+#        else:
+#            if sk > 20:
+#             print(sk)
+#             break
 
 # 8. Liepkite vartotojui įvedinėti bet kokius skaičius. Vykdykite įvedinėjimą iki
 # kol įvestas skaičius bus lygus 0. Raskite įvestų skaičių sumą.
+
+# Skaiciai = []
+# print("Iveskite skaiciu")
+# while True:
+#     Skaicius = int(input())
+#     if Skaicius != 0:
+#         print("Iveskite skaiciu")
+#     if Skaicius == 0:
+#         break
+#     Skaiciai.append(Skaicius)
+# suma = sum(Skaiciai)
+# print(f'Skaiciu suma: {suma}')
+
 # 9. Leiskite vartotojui atlikti norimus skaičiavimus tiek kartų kiek jis nori.
 # Pavyzdžiui, leiskite vartotojui įvesti du skaičius, tuomet jam parodykite
 # pačius skaičius, veiksmus (sudėtis, atimtis, daugyba, dalyba) ir
@@ -293,6 +317,8 @@ from turtledemo.penrose import start
 # parodyti, vartotojas turi turėti galimybę pakartoti skaičiavimus, todėl
 # leiskite pasirinkti ar dar kartoti veiksmą, ar jau programa turėtų baigti
 # savo darbą.
+
+
 # 10.Vartotojui išveskite pasirinkto skaičiaus daugybos lentelę (pvz, skaičiaus 5
 # daugybos lentelė būtų 5 * 1 = 5; 5 * 2 = 10; 5 * 3 = 15; ...). Leiskite
 # vartotojui kartoti veiksmą (tiek kartų kiek norės) ir gauti dar vieną
