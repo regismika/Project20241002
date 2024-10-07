@@ -318,9 +318,91 @@ from turtledemo.penrose import start
 # leiskite pasirinkti ar dar kartoti veiksmą, ar jau programa turėtų baigti
 # savo darbą.
 
+# This function adds two numbers
+# def add(x, y):
+#     return x + y
+#
+#
+# # This function subtracts two numbers
+# def subtract(x, y):
+#     return x - y
+#
+#
+# # This function multiplies two numbers
+# def multiply(x, y):
+#     return x * y
+#
+#
+# # This function divides two numbers
+# def divide(x, y):
+#     return x / y
+#
+#
+# print("Select operation.")
+# print("1.Add")
+# print("2.Subtract")
+# print("3.Multiply")
+# print("4.Divide")
+#
+# while True:
+#    choice = input("Enter choice(1/2/3/4): ")
+#    if choice in ('1', '2', '3', '4'):
+#         try:
+#             num1 = float(input("Enter first number: "))
+#             num2 = float(input("Enter second number: "))
+#         except ValueError:
+#             print("Invalid input. Please enter a number.")
+#             continue
+#
+#         if choice == '1':
+#             print(num1, "+", num2, "=", add(num1, num2))
+#
+#         elif choice == '2':
+#             print(num1, "-", num2, "=", subtract(num1, num2))
+#
+#         elif choice == '3':
+#             print(num1, "*", num2, "=", multiply(num1, num2))
+#
+#         elif choice == '4':
+#             print(num1, "/", num2, "=", divide(num1, num2))
+#
+#         # check if user wants another calculation
+#         # break the while loop if answer is no
+#         next_calculation = input("Let's do next calculation? (yes/no): ")
+#         if next_calculation == "no":
+#             break
+#     else:
+#         print("Invalid Input")
 
 # 10.Vartotojui išveskite pasirinkto skaičiaus daugybos lentelę (pvz, skaičiaus 5
 # daugybos lentelė būtų 5 * 1 = 5; 5 * 2 = 10; 5 * 3 = 15; ...). Leiskite
 # vartotojui kartoti veiksmą (tiek kartų kiek norės) ir gauti dar vieną
 # daugybos lentelę su kitu pasirinktu skaičiumi.
+# while True:
+#     print("Iveskite skaiciu")
+#     skaicius = int(input())
+#     for i in range(1, 11):
+#         print(skaicius, 'x', i, '=', skaicius*i)
+#     kitas_bandymas = input("Ar norite pakartoti? (taip?ne): ")
+#     if kitas_bandymas == "ne":
+#         break
+#     elif kitas_bandymas == "taip":
+#         print("Veskite kita skaiciu")
+#     else:
+#         print("Programos pabaiga")
+#         break
+#
+# 12.Sukurkite studentų pažymių vidurkių skaičiuoklę (kaip pavyzdį galite
+# naudoti 17-ą pavyzdį). Tačiau tokia skaičiuoklė turėtų leisti skaičiuoti
+# vidurkį ne tik iš vieno studento pažymių, bet leistų pakartoti pažymių
+# įvedimą ir vidurkio skaičiavimą ant tiek studentų kiek reikia.
 
+
+
+# 13.Sukurkite skaičiaus atspėjimo užduotį. Leiskite vartotojui pasirinkti
+# žaidimo sudėtingumą (atsitiktinio skaičiaus rėžiai), ar suteikiamos
+# pagalbos (skaičius mažesnis/didesnis nei spėjamas), kiek spėjimų
+# leidžiama (neribotai, arba pvz iki 10 ėjimų), bei kiti pasirinkti parametrai.
+# Vartotojas šiuos parametrus pasirenka žaidimo pradžioje. Turite užtikrinti,
+# kad vartotojas pasirinko parametrus tik iš galimų - jeigu ne, liepkite
+# įvedimą pakartoti
